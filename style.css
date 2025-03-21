@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     /* min-height: 100vh; */
     display: flex;
@@ -14,6 +14,11 @@ body {
     align-items: center;
     padding: 15px 200px;
     justify-content: space-between;
+  }
+
+  .logotext {
+    font-size: 24px;
+    color: #f9FAF8
   }
 
   .header ul {
@@ -34,11 +39,14 @@ body {
     color: #E5E7Eb;
   }
 
+  a:hover {
+    color: #3882f6;
+  }
+
   .links {
     display: flex;
     align-items: center;
     /* gap: 15px; */
-    border: red 1px solid;
     font-size: 18px;
   }
   
@@ -51,3 +59,151 @@ body {
     justify-content: center;
   }
   
+  .hero {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    background-color: #1F2937;
+    padding-bottom: 75px;
+    flex-wrap: wrap;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding-left: 15px;
+  }
+
+  .hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+  }
+
+  .hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    max-width: 150px;
+    padding: 7px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px #999;
+    transition-duration: 0.2s;
+  }
+  
+  .button:hover {background-color:  #1a4891}
+  
+  .button:active {
+    background-color: #1b3259;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+  }
+
+  .deck {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+  }
+
+  .cards {
+    max-width: 205px;
+  }
+
+  .info-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .hero-img {
+    width: 200px;
+    height: 250px;
+  }
+
+  .card-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  img {
+    border: 2px #3882F6 solid;
+    border-radius: 15px;
+  }
+
+  .quote-banner {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 50px 100px;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .quote-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 500px;
+    font-weight: 300;
+  }
+
+  .author {
+    display: flex;
+    font-size: 18px;
+    justify-content: flex-end;
+    font-weight: 600;
+  }
+
+  .call-to-action{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    
+  }
+
+  .cta-container {
+    display: flex;
+    background-color: #3882F6 ;
+    border-radius: 15px;
+    padding: 40px;
+    color: #F9FAF8;
+  }
+
+  .cta-heading {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 3px;
+  }
+
+  .cta-text {
+    font-size: 14px;
+    padding-right: 15px;
+  }
+
+  .cta-container .button {
+    color: #F9FAF8;
+    border: 2px #F9FAF8 solid;
+  }
